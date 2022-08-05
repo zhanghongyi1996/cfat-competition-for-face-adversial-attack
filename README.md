@@ -1,6 +1,10 @@
 #This project mainly focused on the balance between how to find smaller area in photos and generate noise to attack the face recognition model as efficient as possible.
+
 #The time of noise generation is less than 100s per photo only with cpu.
+
 #Example code is listed here.
+
+
 
 def main(args):
     save_dir = args.output
