@@ -1,15 +1,15 @@
 import sys
 import pip
 sys.path.append("./assets")
-sys.path.append("./assets/tools_for_match")
+#sys.path.append("./assets/tools_for_match")
 import math
 import os
-os.system("python ./assets/tool_install.py")
-sys.path.append("./assets/tools_for_match/timm-0.6.5/")
-sys.path.append("./assets/tools_for_match/scs-3.2.0/")
-sys.path.append("./assets/tools_for_match/osqp-0.6.2.post5/")
-sys.path.append("./assets/tools_for_match/ecos-2.0.10/")
-sys.path.append("./assets/tools_for_match/cvxpy-1.2.1/")
+#os.system("python ./assets/tool_install.py")
+#sys.path.append("./assets/tools_for_match/timm-0.6.5/")
+#sys.path.append("./assets/tools_for_match/scs-3.2.0/")
+#sys.path.append("./assets/tools_for_match/osqp-0.6.2.post5/")
+#sys.path.append("./assets/tools_for_match/ecos-2.0.10/")
+#sys.path.append("./assets/tools_for_match/cvxpy-1.2.1/")
 #sys.path.append("./assets/tools_for_match/cvxopt-1.3.0/")
 import random
 import os.path as osp
