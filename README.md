@@ -5,12 +5,6 @@
 #Example code is listed here.
 
 
-
-def main(args):
-    save_dir = args.output
-    if not os.path.exists(save_dir):
-        os.makedirs(save_dir)
-
     for idname in range(1, 101):
         tool = pyfat_implement.PyFAT(N=10)                         # Do initalization(Import pyfat_implement.py)
         if args.device=='cuda':
